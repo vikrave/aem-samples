@@ -11,6 +11,10 @@ import com.aem.samples.core.utils.services.SampleServiceOsgi;
 //Mark your service immediate=true , to make it active as soon as the bundle is active 
 //Otherwise your service will be in satisfied state only
 
+
+//OSGI annotations don't use @Service like in Apache Felix SCR annotations
+//We need to mention the service type as a property.
+
 @Component(immediate = true, service = SampleServiceOsgi.class)
 public class SampleServiceOsgiImpl implements SampleServiceOsgi {
 
