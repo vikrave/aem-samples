@@ -550,6 +550,51 @@
                 <version>1.4</version>
                 <scope>test</scope>
             </dependency>
+            
+            <!-- https://mvnrepository.com/artifact/org.apache.oltu.oauth2/org.apache.oltu.oauth2.client -->
+			<dependency>
+			    <groupId>org.apache.oltu.oauth2</groupId>
+			    <artifactId>org.apache.oltu.oauth2.client</artifactId>
+			    <version>1.0.2</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-lang3</artifactId>
+				<version>3.5</version>
+				<scope>provided</scope>
+			</dependency>
+			
+			<dependency>
+		          <groupId>com.amazonaws</groupId>
+    			<artifactId>aws-java-sdk-bundle</artifactId>
+    			<version>1.11.271</version>
+       		</dependency>
+            
+             
+        <dependency>
+			<groupId>com.day.commons.osgi.wrapper</groupId>
+			<artifactId>com.day.commons.osgi.wrapper.commons-lang2</artifactId>
+			<version>2.5-0001</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		
+		<!--  Email in 6.2 -->
+		<dependency>
+			<groupId>com.day.commons.osgi.wrapper</groupId>
+			<artifactId>com.day.commons.osgi.wrapper.commons-email</artifactId>
+			<version>1.2.0-0002</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.5.0-b01</version>
+			<scope>provided</scope>
+		</dependency>
         </dependencies>
     </dependencyManagement>
 
